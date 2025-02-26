@@ -1,4 +1,3 @@
-以下は、GitHub Codespaces を利用した Vue/Vite 開発環境の構築と利用手順を含む、完全な README の例
 # Vue + Vite Dev Container GitHub Codespaces サンプル
 
 このリポジトリは、Vue.js（Vue 3）と Vite を用いた開発環境のモック構成例です。GitHub Codespaces および VS Code Remote Containers の機能を活用し、即時かつ統一された環境で開発を開始できるように設計されています。  
