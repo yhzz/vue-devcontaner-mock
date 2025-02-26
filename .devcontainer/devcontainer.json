@@ -1,0 +1,25 @@
+{
+  "name": "Vue/Vite Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "johnsoncodehk.volar"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [5173],
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+  ],
+  "remoteUser": "node"
+}
