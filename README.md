@@ -28,7 +28,8 @@
 以下の手順に従って、GitHub Codespaces 上で本プロジェクトの開発環境を構築し、開発を開始してください。
 
 1. **リポジトリのクローンまたはフォーク**  
-   - GitHub 上で本リポジトリをクローンするか、フォークしてください。
+   - GitHub 上で本リポジトリを[インポート](https://docs.github.com/ja/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer)してください。
+   - GitHub Codespaces での開発体験を試してみたい場合は、本リポジトリ上でも以下の手順を実行可能です。
 
 2. **GitHub Codespaces の作成**  
    - リポジトリ画面の「Code」ボタンをクリックし、「Open with Codespaces」を選択します。  
